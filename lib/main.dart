@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main() { 
+void main() {
   var app = MaterialApp(
     title: "bct",
     home: Scaffold(
@@ -8,12 +8,9 @@ void main() {
         title: Text("my title"),
       ),
       body: Center(
-        child: Image.asset(
-          "assets/ruka_san_LI.jpg",
-          width: 200,
-          height: 300,
-        ),
-      ),
+          child: Column(
+        children: <Widget>[Text("why"), Text("lool"), Text("nothing")],
+      )),
     ),
     theme: ThemeData(primarySwatch: Colors.deepOrange),
   );
